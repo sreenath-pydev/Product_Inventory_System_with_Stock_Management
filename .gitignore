@@ -1,0 +1,37 @@
+# --- General ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Node.js / React ---
+node_modules
+/build/
+/.env
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# --- Python / Django ---
+backend-env/
+__pycache__
+inventory_backend/products/migrations/
+/*.py[cod]
+/*.sqlite3
+db.sqlite3
+/staticfiles/
+/media/
+/.env
+venv
+asgi.py
+migrations
+# --- IDE/Editor Files ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+
+# --- OS Generated Files ---
+*.~lock.*
+*.bak
+*.tmp
+*.backup
